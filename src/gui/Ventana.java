@@ -22,6 +22,10 @@ public class Ventana extends JFrame {
 	
 	private JTable table;
 	private DefaultTableModel dtm;
+	private JButton btnListar;
+	private JButton btnEditar;
+	
+	
 	
 	
 
@@ -73,10 +77,10 @@ public class Ventana extends JFrame {
 		
 		
 	 	panelInf = new JPanel();
-	 	JButton bt = new JButton("Btn01");
-	 	JButton bt02 = new JButton("Btn02");
-	 	panelInf.add(bt);
-	 	panelInf.add(bt02);
+	 	btnListar = new JButton("Listar");
+	 	btnEditar = new JButton("Editar");
+	 	panelInf.add(btnListar);
+	 	panelInf.add(btnEditar);
 	 	
 	 	cp.add(scrollPane, BorderLayout.CENTER);
 	 	cp.add(panelInf, BorderLayout.SOUTH);
